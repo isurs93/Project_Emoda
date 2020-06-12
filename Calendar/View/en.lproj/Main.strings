@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "0kh-M4-mUn"; */
+"0kh-M4-mUn.text" = "Title";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "6Vv-qy-mFl"; */
+"6Vv-qy-mFl.text" = "Content";
+
+/* Class = "UIButton"; normalTitle = "Delete?"; ObjectID = "6eM-lb-3wG"; */
+"6eM-lb-3wG.normalTitle" = "Delete?";
+
+/* Class = "UIButton"; normalTitle = "  ◀︎ Back"; ObjectID = "CbX-1P-HCY"; */
+"CbX-1P-HCY.normalTitle" = "  ◀︎ Back";
+
+/* Class = "UINavigationItem"; title = "Other's Diary"; ObjectID = "Cgw-gF-9wE"; */
+"Cgw-gF-9wE.title" = "Other's Diary";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "D3p-3D-Iru"; */
+"D3p-3D-Iru.title" = "Item";
+
+/* Class = "UILabel"; text = "Display"; ObjectID = "EdB-E5-7wf"; */
+"EdB-E5-7wf.text" = "Display";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "PGB-S3-TRP"; */
+"PGB-S3-TRP.text" = "Title";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "RAQ-eV-FGi"; */
+"RAQ-eV-FGi.text" = "Date";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "RSW-pp-b69"; */
+"RSW-pp-b69.text" = "Content";
+
+/* Class = "UILabel"; text = "Do you want to share your emotion?"; ObjectID = "RxI-7F-JNT"; */
+"RxI-7F-JNT.text" = "Do you want to share your emotion?";
+
+/* Class = "UILabel"; text = "Do you want to share your emotion?"; ObjectID = "Sni-bH-1ot"; */
+"Sni-bH-1ot.text" = "Do you want to share your emotion?";
+
+/* Class = "UIButton"; normalTitle = "Detail Page"; ObjectID = "W29-ax-oej"; */
+"W29-ax-oej.normalTitle" = "Detail Page";
+
+/* Class = "UIButton"; normalTitle = "Add Page"; ObjectID = "azU-4H-cJi"; */
+"azU-4H-cJi.normalTitle" = "Add Page";
+
+/* Class = "UINavigationItem"; title = "Emotion Diary"; ObjectID = "hcz-OJ-Fi4"; */
+"hcz-OJ-Fi4.title" = "Emotion Diary";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "pEU-Qf-gag"; */
+"pEU-Qf-gag.text" = "Date";
+
+/* Class = "UIButton"; normalTitle = "Save!"; ObjectID = "tT2-Lg-Lu7"; */
+"tT2-Lg-Lu7.normalTitle" = "Save!";
+
+/* Class = "UILabel"; text = "Display"; ObjectID = "xp5-6I-JE6"; */
+"xp5-6I-JE6.text" = "Display";
+
+/* Class = "UIButton"; normalTitle = "  ◀︎ Back"; ObjectID = "z6O-vV-8KX"; */
+"z6O-vV-8KX.normalTitle" = "  ◀︎ Back";
