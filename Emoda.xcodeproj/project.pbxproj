@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330DC8E3158F612548DDF2D5 /* Pods_Emoda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D903A0E5AF68991AB74FB07 /* Pods_Emoda.framework */; };
+		681712CC242175A300BDCC47 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681712CB242175A300BDCC47 /* DetailPageViewController.swift */; };
+		681712D224217EC800BDCC47 /* SQLiteForAddPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681712D124217EC800BDCC47 /* SQLiteForAddPage.swift */; };
+		6835E6232421862300C9FF7C /* SQLiteForMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E6222421862300C9FF7C /* SQLiteForMainPage.swift */; };
+		6835E6292421DA5A00C9FF7C /* SQLiteForDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E6282421DA5A00C9FF7C /* SQLiteForDetailPage.swift */; };
+		6835E62F2422216F00C9FF7C /* MapPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835E62E2422216F00C9FF7C /* MapPageViewController.swift */; };
+		684E15772420D07D00C6F779 /* DBForMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684E15762420D07D00C6F779 /* DBForMainPage.swift */; };
+		6857A2672429AAFF007D0F4C /* DELETE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6857A2662429AAFF007D0F4C /* DELETE.mp3 */; };
+		6857A2752429F253007D0F4C /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2702429F252007D0F4C /* CALayerExtension.swift */; };
+		6857A2762429F253007D0F4C /* CustomSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2712429F252007D0F4C /* CustomSegments.swift */; };
+		6857A2772429F253007D0F4C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2722429F252007D0F4C /* ArrayExtension.swift */; };
+		6857A2782429F253007D0F4C /* DataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2732429F253007D0F4C /* DataEntry.swift */; };
+		6857A2792429F253007D0F4C /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2742429F253007D0F4C /* UIBezierPathExtension.swift */; };
+		6857A27F2429F2A2007D0F4C /* BeautifulBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A27C2429F2A2007D0F4C /* BeautifulBarEntry.swift */; };
+		6857A2802429F2A2007D0F4C /* BeautifulBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A27D2429F2A2007D0F4C /* BeautifulBarChartPresenter.swift */; };
+		6857A2812429F2A2007D0F4C /* BeautifulBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A27E2429F2A2007D0F4C /* BeautifulBarChart.swift */; };
+		6857A2852429F2AC007D0F4C /* BasicBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2822429F2AC007D0F4C /* BasicBarChartPresenter.swift */; };
+		6857A2862429F2AC007D0F4C /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2832429F2AC007D0F4C /* BasicBarChart.swift */; };
+		6857A2872429F2AC007D0F4C /* BasicBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A2842429F2AC007D0F4C /* BasicBarEntry.swift */; };
+		6857A28B2429F9A4007D0F4C /* StatisticsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A28A2429F9A4007D0F4C /* StatisticsPageViewController.swift */; };
+		6857A28D242A3C87007D0F4C /* PushPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857A28C242A3C87007D0F4C /* PushPageViewController.swift */; };
+		685A430B24262818003A9B7D /* OthersPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A430A24262818003A9B7D /* OthersPageTableViewController.swift */; };
+		685A430D24262833003A9B7D /* OthersPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A430C24262833003A9B7D /* OthersPageTableViewCell.swift */; };
+		685A430F2426FDA2003A9B7D /* MySQLForOthersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A430E2426FDA2003A9B7D /* MySQLForOthersPage.swift */; };
+		685A431224270386003A9B7D /* DBForOthersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A431124270386003A9B7D /* DBForOthersPage.swift */; };
+		685A431424279F95003A9B7D /* DiaryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A431324279F95003A9B7D /* DiaryPageViewController.swift */; };
+		685A431624282A4D003A9B7D /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A431524282A4D003A9B7D /* LoginPageViewController.swift */; };
+		685A431824282E3E003A9B7D /* MySQLForLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A431724282E3E003A9B7D /* MySQLForLoginPage.swift */; };
+		685A431A24285485003A9B7D /* SQLiteForLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A431924285485003A9B7D /* SQLiteForLoginPage.swift */; };
+		685A5EF9241DEA200068EB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A5EF8241DEA200068EB59 /* AppDelegate.swift */; };
+		685A5EFB241DEA200068EB59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A5EFA241DEA200068EB59 /* SceneDelegate.swift */; };
+		685A5EFD241DEA200068EB59 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A5EFC241DEA200068EB59 /* MainPageViewController.swift */; };
+		685A5F00241DEA200068EB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685A5EFE241DEA200068EB59 /* Main.storyboard */; };
+		685A5F03241DEA200068EB59 /* Calendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 685A5F01241DEA200068EB59 /* Calendar.xcdatamodeld */; };
+		685A5F05241DEA230068EB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685A5F04241DEA230068EB59 /* Assets.xcassets */; };
+		685A5F08241DEA230068EB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685A5F06241DEA230068EB59 /* LaunchScreen.storyboard */; };
+		687145E52425FEF4000100A5 /* MySQLForAddPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687145E42425FEF4000100A5 /* MySQLForAddPage.swift */; };
+		687145E72425FF0C000100A5 /* MySQLForDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687145E62425FF0C000100A5 /* MySQLForDetailPage.swift */; };
+		6881786C241F6486008F491E /* AddPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881786B241F6486008F491E /* AddPageViewController.swift */; };
+		6896555624235283003024BB /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6896555524235283003024BB /* ReadMe.rtf */; };
+		6896556724236FF8003024BB /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6896556624236FF8003024BB /* CardViewController.swift */; };
+		6896556924238EF0003024BB /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6896556824238EF0003024BB /* CardViewController.xib */; };
+		6896557124246D4D003024BB /* MySQLForMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6896557024246D4D003024BB /* MySQLForMapPage.swift */; };
+		68FE73442424BA1A002CFC3C /* DBForMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE73432424BA1A002CFC3C /* DBForMapPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D0D15A04D98A56F4F79AEBA /* Pods-Calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar.release.xcconfig"; path = "Target Support Files/Pods-Calendar/Pods-Calendar.release.xcconfig"; sourceTree = "<group>"; };
+		5D903A0E5AF68991AB74FB07 /* Pods_Emoda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emoda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		681712CB242175A300BDCC47 /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		681712D124217EC800BDCC47 /* SQLiteForAddPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteForAddPage.swift; sourceTree = "<group>"; };
+		6835E6222421862300C9FF7C /* SQLiteForMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteForMainPage.swift; sourceTree = "<group>"; };
+		6835E6282421DA5A00C9FF7C /* SQLiteForDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteForDetailPage.swift; sourceTree = "<group>"; };
+		6835E62E2422216F00C9FF7C /* MapPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPageViewController.swift; sourceTree = "<group>"; };
+		684E15762420D07D00C6F779 /* DBForMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBForMainPage.swift; sourceTree = "<group>"; };
+		6857A2662429AAFF007D0F4C /* DELETE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DELETE.mp3; sourceTree = "<group>"; };
+		6857A2702429F252007D0F4C /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		6857A2712429F252007D0F4C /* CustomSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegments.swift; sourceTree = "<group>"; };
+		6857A2722429F252007D0F4C /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		6857A2732429F253007D0F4C /* DataEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntry.swift; sourceTree = "<group>"; };
+		6857A2742429F253007D0F4C /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		6857A27C2429F2A2007D0F4C /* BeautifulBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarEntry.swift; sourceTree = "<group>"; };
+		6857A27D2429F2A2007D0F4C /* BeautifulBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChartPresenter.swift; sourceTree = "<group>"; };
+		6857A27E2429F2A2007D0F4C /* BeautifulBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChart.swift; sourceTree = "<group>"; };
+		6857A2822429F2AC007D0F4C /* BasicBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChartPresenter.swift; sourceTree = "<group>"; };
+		6857A2832429F2AC007D0F4C /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		6857A2842429F2AC007D0F4C /* BasicBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarEntry.swift; sourceTree = "<group>"; };
+		6857A28A2429F9A4007D0F4C /* StatisticsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsPageViewController.swift; sourceTree = "<group>"; };
+		6857A28C242A3C87007D0F4C /* PushPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPageViewController.swift; sourceTree = "<group>"; };
+		685A430A24262818003A9B7D /* OthersPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersPageTableViewController.swift; sourceTree = "<group>"; };
+		685A430C24262833003A9B7D /* OthersPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersPageTableViewCell.swift; sourceTree = "<group>"; };
+		685A430E2426FDA2003A9B7D /* MySQLForOthersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLForOthersPage.swift; sourceTree = "<group>"; };
+		685A431124270386003A9B7D /* DBForOthersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBForOthersPage.swift; sourceTree = "<group>"; };
+		685A431324279F95003A9B7D /* DiaryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryPageViewController.swift; sourceTree = "<group>"; };
+		685A431524282A4D003A9B7D /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		685A431724282E3E003A9B7D /* MySQLForLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLForLoginPage.swift; sourceTree = "<group>"; };
+		685A431924285485003A9B7D /* SQLiteForLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteForLoginPage.swift; sourceTree = "<group>"; };
+		685A5EF5241DEA200068EB59 /* Emoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A5EF8241DEA200068EB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		685A5EFA241DEA200068EB59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		685A5EFC241DEA200068EB59 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		685A5EFF241DEA200068EB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685A5F02241DEA200068EB59 /* Calendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calendar.xcdatamodel; sourceTree = "<group>"; };
+		685A5F04241DEA230068EB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685A5F07241DEA230068EB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685A5F09241DEA230068EB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687145E42425FEF4000100A5 /* MySQLForAddPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLForAddPage.swift; sourceTree = "<group>"; };
+		687145E62425FF0C000100A5 /* MySQLForDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLForDetailPage.swift; sourceTree = "<group>"; };
+		6881786B241F6486008F491E /* AddPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageViewController.swift; sourceTree = "<group>"; };
+		6896555524235283003024BB /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		6896556624236FF8003024BB /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		6896556824238EF0003024BB /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		6896556B2423AE30003024BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		6896557024246D4D003024BB /* MySQLForMapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLForMapPage.swift; sourceTree = "<group>"; };
+		68FE73432424BA1A002CFC3C /* DBForMapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBForMapPage.swift; sourceTree = "<group>"; };
+		B48054A92850D88BA04C1E32 /* Pods-Emoda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoda.release.xcconfig"; path = "Target Support Files/Pods-Emoda/Pods-Emoda.release.xcconfig"; sourceTree = "<group>"; };
+		C94F3B4C2C18F9DF4EB7A3AF /* Pods-Emoda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoda.debug.xcconfig"; path = "Target Support Files/Pods-Emoda/Pods-Emoda.debug.xcconfig"; sourceTree = "<group>"; };
+		E2534B00A5F384E9FF699A89 /* Pods-Calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar.debug.xcconfig"; path = "Target Support Files/Pods-Calendar/Pods-Calendar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685A5EF2241DEA200068EB59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DC8E3158F612548DDF2D5 /* Pods_Emoda.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		684E1573242091A700C6F779 /* ModelForSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				684E15762420D07D00C6F779 /* DBForMainPage.swift */,
+				6835E6222421862300C9FF7C /* SQLiteForMainPage.swift */,
+				685A431924285485003A9B7D /* SQLiteForLoginPage.swift */,
+				681712D124217EC800BDCC47 /* SQLiteForAddPage.swift */,
+				6835E6282421DA5A00C9FF7C /* SQLiteForDetailPage.swift */,
+			);
+			path = ModelForSQLite;
+			sourceTree = "<group>";
+		};
+		684E15742420A75D00C6F779 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				685A5EFC241DEA200068EB59 /* MainPageViewController.swift */,
+				6857A28C242A3C87007D0F4C /* PushPageViewController.swift */,
+				6857A28A2429F9A4007D0F4C /* StatisticsPageViewController.swift */,
+				685A431524282A4D003A9B7D /* LoginPageViewController.swift */,
+				6881786B241F6486008F491E /* AddPageViewController.swift */,
+				681712CB242175A300BDCC47 /* DetailPageViewController.swift */,
+				6835E62E2422216F00C9FF7C /* MapPageViewController.swift */,
+				685A430A24262818003A9B7D /* OthersPageTableViewController.swift */,
+				685A430C24262833003A9B7D /* OthersPageTableViewCell.swift */,
+				685A431324279F95003A9B7D /* DiaryPageViewController.swift */,
+				6896556624236FF8003024BB /* CardViewController.swift */,
+				6857A2662429AAFF007D0F4C /* DELETE.mp3 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		684E15752420C40700C6F779 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				685A5EFE241DEA200068EB59 /* Main.storyboard */,
+				6896556824238EF0003024BB /* CardViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6857A26C2429F21D007D0F4C /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				6857A26F2429F245007D0F4C /* Shared */,
+				6857A27A2429F257007D0F4C /* BeautifulBarChart */,
+				6857A27B2429F274007D0F4C /* BasicBarChart */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		6857A26F2429F245007D0F4C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6857A2722429F252007D0F4C /* ArrayExtension.swift */,
+				6857A2702429F252007D0F4C /* CALayerExtension.swift */,
+				6857A2712429F252007D0F4C /* CustomSegments.swift */,
+				6857A2732429F253007D0F4C /* DataEntry.swift */,
+				6857A2742429F253007D0F4C /* UIBezierPathExtension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6857A27A2429F257007D0F4C /* BeautifulBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				6857A27E2429F2A2007D0F4C /* BeautifulBarChart.swift */,
+				6857A27D2429F2A2007D0F4C /* BeautifulBarChartPresenter.swift */,
+				6857A27C2429F2A2007D0F4C /* BeautifulBarEntry.swift */,
+			);
+			path = BeautifulBarChart;
+			sourceTree = "<group>";
+		};
+		6857A27B2429F274007D0F4C /* BasicBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				6857A2832429F2AC007D0F4C /* BasicBarChart.swift */,
+				6857A2822429F2AC007D0F4C /* BasicBarChartPresenter.swift */,
+				6857A2842429F2AC007D0F4C /* BasicBarEntry.swift */,
+			);
+			path = BasicBarChart;
+			sourceTree = "<group>";
+		};
+		685A5EEC241DEA200068EB59 = {
+			isa = PBXGroup;
+			children = (
+				685A5EF7241DEA200068EB59 /* Calendar */,
+				685A5EF6241DEA200068EB59 /* Products */,
+				BBAD9EA1EBE35F804AF6C616 /* Pods */,
+				BB9BB7493B7A59D1C30841B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		685A5EF6241DEA200068EB59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685A5EF5241DEA200068EB59 /* Emoda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685A5EF7241DEA200068EB59 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6857A26C2429F21D007D0F4C /* BarChart */,
+				685A5EF8241DEA200068EB59 /* AppDelegate.swift */,
+				685A5EFA241DEA200068EB59 /* SceneDelegate.swift */,
+				684E15752420C40700C6F779 /* View */,
+				684E15742420A75D00C6F779 /* Controller */,
+				68FE73422424B221002CFC3C /* ModelForMySQL */,
+				684E1573242091A700C6F779 /* ModelForSQLite */,
+				685A5F04241DEA230068EB59 /* Assets.xcassets */,
+				685A5F06241DEA230068EB59 /* LaunchScreen.storyboard */,
+				685A5F09241DEA230068EB59 /* Info.plist */,
+				685A5F01241DEA200068EB59 /* Calendar.xcdatamodeld */,
+				6896555524235283003024BB /* ReadMe.rtf */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		68FE73422424B221002CFC3C /* ModelForMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				68FE73432424BA1A002CFC3C /* DBForMapPage.swift */,
+				685A431124270386003A9B7D /* DBForOthersPage.swift */,
+				685A431724282E3E003A9B7D /* MySQLForLoginPage.swift */,
+				687145E42425FEF4000100A5 /* MySQLForAddPage.swift */,
+				687145E62425FF0C000100A5 /* MySQLForDetailPage.swift */,
+				6896557024246D4D003024BB /* MySQLForMapPage.swift */,
+				685A430E2426FDA2003A9B7D /* MySQLForOthersPage.swift */,
+			);
+			path = ModelForMySQL;
+			sourceTree = "<group>";
+		};
+		BB9BB7493B7A59D1C30841B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D903A0E5AF68991AB74FB07 /* Pods_Emoda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBAD9EA1EBE35F804AF6C616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2534B00A5F384E9FF699A89 /* Pods-Calendar.debug.xcconfig */,
+				3D0D15A04D98A56F4F79AEBA /* Pods-Calendar.release.xcconfig */,
+				C94F3B4C2C18F9DF4EB7A3AF /* Pods-Emoda.debug.xcconfig */,
+				B48054A92850D88BA04C1E32 /* Pods-Emoda.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685A5EF4241DEA200068EB59 /* Emoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A5F0C241DEA230068EB59 /* Build configuration list for PBXNativeTarget "Emoda" */;
+			buildPhases = (
+				D6136F5C619E9B69F5DCF2E4 /* [CP] Check Pods Manifest.lock */,
+				685A5EF1241DEA200068EB59 /* Sources */,
+				685A5EF2241DEA200068EB59 /* Frameworks */,
+				685A5EF3241DEA200068EB59 /* Resources */,
+				0020234AF576395DA8875D65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emoda;
+			productName = Calendar;
+			productReference = 685A5EF5241DEA200068EB59 /* Emoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685A5EED241DEA200068EB59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Piano;
+				TargetAttributes = {
+					685A5EF4241DEA200068EB59 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 685A5EF0241DEA200068EB59 /* Build configuration list for PBXProject "Emoda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685A5EEC241DEA200068EB59;
+			productRefGroup = 685A5EF6241DEA200068EB59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685A5EF4241DEA200068EB59 /* Emoda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685A5EF3241DEA200068EB59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A5F08241DEA230068EB59 /* LaunchScreen.storyboard in Resources */,
+				685A5F05241DEA230068EB59 /* Assets.xcassets in Resources */,
+				6896555624235283003024BB /* ReadMe.rtf in Resources */,
+				6857A2672429AAFF007D0F4C /* DELETE.mp3 in Resources */,
+				6896556924238EF0003024BB /* CardViewController.xib in Resources */,
+				685A5F00241DEA200068EB59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0020234AF576395DA8875D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emoda/Pods-Emoda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emoda/Pods-Emoda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emoda/Pods-Emoda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6136F5C619E9B69F5DCF2E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emoda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685A5EF1241DEA200068EB59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687145E72425FF0C000100A5 /* MySQLForDetailPage.swift in Sources */,
+				685A430B24262818003A9B7D /* OthersPageTableViewController.swift in Sources */,
+				6857A2782429F253007D0F4C /* DataEntry.swift in Sources */,
+				6835E62F2422216F00C9FF7C /* MapPageViewController.swift in Sources */,
+				6857A27F2429F2A2007D0F4C /* BeautifulBarEntry.swift in Sources */,
+				681712CC242175A300BDCC47 /* DetailPageViewController.swift in Sources */,
+				6857A28D242A3C87007D0F4C /* PushPageViewController.swift in Sources */,
+				685A431424279F95003A9B7D /* DiaryPageViewController.swift in Sources */,
+				6857A2752429F253007D0F4C /* CALayerExtension.swift in Sources */,
+				6857A2762429F253007D0F4C /* CustomSegments.swift in Sources */,
+				6881786C241F6486008F491E /* AddPageViewController.swift in Sources */,
+				6857A2872429F2AC007D0F4C /* BasicBarEntry.swift in Sources */,
+				685A5EFD241DEA200068EB59 /* MainPageViewController.swift in Sources */,
+				685A430F2426FDA2003A9B7D /* MySQLForOthersPage.swift in Sources */,
+				681712D224217EC800BDCC47 /* SQLiteForAddPage.swift in Sources */,
+				685A431224270386003A9B7D /* DBForOthersPage.swift in Sources */,
+				6857A2852429F2AC007D0F4C /* BasicBarChartPresenter.swift in Sources */,
+				6857A2862429F2AC007D0F4C /* BasicBarChart.swift in Sources */,
+				685A5EF9241DEA200068EB59 /* AppDelegate.swift in Sources */,
+				6857A28B2429F9A4007D0F4C /* StatisticsPageViewController.swift in Sources */,
+				6896557124246D4D003024BB /* MySQLForMapPage.swift in Sources */,
+				685A431824282E3E003A9B7D /* MySQLForLoginPage.swift in Sources */,
+				685A431A24285485003A9B7D /* SQLiteForLoginPage.swift in Sources */,
+				6857A2802429F2A2007D0F4C /* BeautifulBarChartPresenter.swift in Sources */,
+				6857A2792429F253007D0F4C /* UIBezierPathExtension.swift in Sources */,
+				6835E6292421DA5A00C9FF7C /* SQLiteForDetailPage.swift in Sources */,
+				685A430D24262833003A9B7D /* OthersPageTableViewCell.swift in Sources */,
+				684E15772420D07D00C6F779 /* DBForMainPage.swift in Sources */,
+				685A5EFB241DEA200068EB59 /* SceneDelegate.swift in Sources */,
+				6896556724236FF8003024BB /* CardViewController.swift in Sources */,
+				6857A2772429F253007D0F4C /* ArrayExtension.swift in Sources */,
+				6857A2812429F2A2007D0F4C /* BeautifulBarChart.swift in Sources */,
+				68FE73442424BA1A002CFC3C /* DBForMapPage.swift in Sources */,
+				685A5F03241DEA200068EB59 /* Calendar.xcdatamodeld in Sources */,
+				687145E52425FEF4000100A5 /* MySQLForAddPage.swift in Sources */,
+				685A431624282A4D003A9B7D /* LoginPageViewController.swift in Sources */,
+				6835E6232421862300C9FF7C /* SQLiteForMainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		685A5EFE241DEA200068EB59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685A5EFF241DEA200068EB59 /* Base */,
+				6896556B2423AE30003024BB /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685A5F06241DEA230068EB59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685A5F07241DEA230068EB59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685A5F0A241DEA230068EB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		685A5F0B241DEA230068EB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685A5F0D241DEA230068EB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94F3B4C2C18F9DF4EB7A3AF /* Pods-Emoda.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.swift.calendar;
+				PRODUCT_NAME = Emoda;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		685A5F0E241DEA230068EB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48054A92850D88BA04C1E32 /* Pods-Emoda.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exam.swift.calendar;
+				PRODUCT_NAME = Emoda;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685A5EF0241DEA200068EB59 /* Build configuration list for PBXProject "Emoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A5F0A241DEA230068EB59 /* Debug */,
+				685A5F0B241DEA230068EB59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685A5F0C241DEA230068EB59 /* Build configuration list for PBXNativeTarget "Emoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A5F0D241DEA230068EB59 /* Debug */,
+				685A5F0E241DEA230068EB59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		685A5F01241DEA200068EB59 /* Calendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				685A5F02241DEA200068EB59 /* Calendar.xcdatamodel */,
+			);
+			currentVersion = 685A5F02241DEA200068EB59 /* Calendar.xcdatamodel */;
+			path = Calendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 685A5EED241DEA200068EB59 /* Project object */;
+}
