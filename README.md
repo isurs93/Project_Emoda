@@ -1,9 +1,10 @@
 # Project_Emoda
 
 mvc 패턴 기반
-Back-End : jsp
-SQL : MySQL, SQLite
-Sever : Apache Tomcat
+Language : Swift / Objective - c
+Back-End : jsp / 
+SQL : MySQL, SQLite / 
+Sever : Apache Tomcat /
 
 CocaoPods FSCalendar를 사용하여 메인 화면에 달력 출력
 날짜를 클릭 시 감정 선택 및 일기를 작성 할 수 있습니다.
